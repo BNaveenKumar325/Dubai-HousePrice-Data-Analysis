@@ -16,8 +16,6 @@ several calculated columns:
 • Price Per Square Foot : This was derived as price / size and gives
 a normalized view of property pricing across various sizes.
 
-Bonda Naveen Kumar
-
 • Property Age : For listings that included the year built, I created
 a column calculating age using the formula 2025 - year_built.
 
@@ -30,8 +28,6 @@ instantly grasp the distribution of listings by affordability.
 These transformations allowed me to build a structured semantic model
 that supports slicing and dicing across multiple dimensions - location,
 price range, furnishing status, developer, and more.
-
-Bonda Naveen Kumar
 
 KPI Cards :
 I used Card Visuals for four key indicators:
@@ -58,8 +54,6 @@ could indicate either low market affordability or oversupply of
 economy-grade housing. Conversely, if High-End properties dominate,
 it might be a signal of luxury-focused development.
 
-Bonda Naveen Kumar
-
 I added data labels and percentage annotations for each slice to enhance
 readability. From the pie chart, we can visually deduce how the market
 skews , whether it’s investment-friendly, balanced, or tilted toward a
@@ -78,8 +72,6 @@ The stacked format also helps identify overlaps and market shifts,
 whether Mid-Range properties are gaining share, or if Budget
 properties are declining.
 
-Bonda Naveen Kumar
-
 Stacked Column Chart :
 Next, I used a Stacked Column Chart to show the distribution of listings
 by bedroom count, further broken down by property type.
@@ -92,8 +84,6 @@ This visual is particularly valuable for real estate agents. It helps
 identify demand and supply gaps. For instance, if 4-bedroom
 apartments dominate the dataset, it could mean high buyer interest or
 an oversupply in that segment.
-
-Bonda Naveen Kumar
 
 Line and Clustered Column Chart :
 I integrated a Line and Clustered Column Chart, which overlays
@@ -117,7 +107,6 @@ anomalies. For instance, a tiny property priced unusually high might
 indicate a prime location or ultra-luxury build. Meanwhile, large but
 inexpensive properties could be in less desirable areas.
 
-Bonda Naveen Kumar
 Scatter plots also help investors spot value pocket - that is, properties
 that offer large size for below-average price.
 
@@ -128,8 +117,6 @@ storytelling tool.
 with high ROI potential.
 • For agents, it highlights which types of listings are most common
 and what configurations are in demand.
-
-Bonda Naveen Kumar
 • For policymakers, the trends by year, price range, and furnishing
 status can inform housing policy and urban planning.
 Additionally, tooltips were added across visuals to enhance
